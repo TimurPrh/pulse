@@ -1,0 +1,37 @@
+.feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    input {
+        left: 0px;
+        top: 65px;
+        height: 50px;
+        border-radius: 5px;
+        background: #FFFFFF;
+        margin-top: 15px;
+        border: none;
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4B4B4B;
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+        
+    }
+    .error {
+        border: 2px solid red;
+    }
+    .error-label {
+        font-size: 14px;
+        font-weight: 300;
+        color: #4B4B4B;
+    }
+    .white {
+        color: #fff;
+    }
+    &_mt25 {
+        margin-top: 25px;
+    }
+}
